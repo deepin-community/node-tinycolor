@@ -1,0 +1,51 @@
+node-tinycolor (0.0.1-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 09:09:45 +0100
+
+node-tinycolor (0.0.1-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Aug 2021 00:02:23 +0100
+
+node-tinycolor (0.0.1-2) unstable; urgency=medium
+
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:44:14 +0200
+
+node-tinycolor (0.0.1-1) unstable; urgency=medium
+
+  * Add minimal test based on pkg-js-tools
+  * Bump debhelper compatibility version to 11
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Change prioroty to optional
+  * Update VCS fields to salsa
+  * Add upstream/metadata
+  * Add Berne Convention comment in debian/copyright
+  * Replace Mike Gabriel by me in uploaders. Thanks for your work!
+    (Closes: #921356)
+  * Fix install
+  * Add minimal autopkgtest file
+  * Hide false positive lintian error
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 04 Feb 2019 20:18:56 +0100
+
+node-tinycolor (0.0.1~git20130725-1) unstable; urgency=low
+
+  * Initial release. (Closes: #709838). Obtained from upstream Git,
+    corresponding to commit: aca92ed750c0feeb4584ba8d40f286e30336c4f3.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 25 Jul 2013 07:52:26 +0200

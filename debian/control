@@ -1,0 +1,23 @@
+Source: node-tinycolor
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Section: javascript
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-buildinfo,
+               nodejs,
+               pkg-js-tools (>= 0.8.8)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-tinycolor
+Vcs-Git: https://salsa.debian.org/js-team/node-tinycolor.git
+Homepage: https://github.com/einaros/tinycolor
+
+Package: node-tinycolor
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs
+Description: No-fuzz, barebone, zero muppetry color module for Node.js
+ Tinycolor provides color name definitions for colorizing ANSI output on
+ TTY-like terminals.
+ .
+ Colorization can be disabled by setting the NOCOLOR environment variable.
